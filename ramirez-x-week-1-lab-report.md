@@ -20,3 +20,7 @@ however, I cannot show you any of the sending of the files to the remote compute
 
 We would next generate a set of public and private keys and sent the files with them over to the remote computer so that we would not have to enter passwords in each time we logged in. I cannot show you the process of sending it over nor the process of logging in smoother (or at all), but I can show how to generate the keys. Just type in "ssh-keygen -t ed25519". It will ask you to enter a file location to save the keys, but pressing enter to use the default works fine. It will then ask for passwords, but setting no password also works fine here. After that, it will visualize everything it has generated, and you can see the files for the keys at the file folder you chose.
 ![](KEYGEN.png)
+
+The only thing left to show is optimizations. I can't show any related to logging in, but I can show how you can run multiple commands from the command line with a semicolon!
+
+![](OPTIMIZATIONSWOO.png)
