@@ -1,5 +1,5 @@
 To install VSCode, go to [the VSCode Website](https://code.visualstudio.com/) . Click on the big blue button to download and run the installer to install.
-![alt text](https://github.com/CSELotteryBlessMePls/cse15l-lab-reports/blob/main/image.jpg?raw=true)
+![alt text](https://github.com/CSELotteryBlessMePls/cse15l-lab-reports/blob/main/OPENSSH CLIENT AND SERVER.png?raw=true)
 
 To connect to the lab computers remotely, make sure that open ssh is installed on your windows device by going to settings > searching for "optional features" > checking from the dropdown list that both the "OpenSSH Client" and "OpenSSH Server" are installed.
 Then, in VSCode, open a new terminal and type in "ssh cs15lfa22**@ieng6.ucsd.edu" where the two asterisks are replaced with the two characters associated with your CSE 15L account (can be found at [this site](https://sdacs.ucsd.edu/~icc/index.php))
