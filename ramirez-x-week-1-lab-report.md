@@ -8,6 +8,7 @@ Then, in VSCode, open a new terminal (by pressing "ctrl" + "~") and type in "ssh
 You should be able to enter in your account password. I (and many other of my peers) had trouble with this.
 ![](VSCODE%20WEBSITE.png)
 ![](SSHTERMINAL.png)
+![](SUCCESSFULLOGIN.png)
 
 <h2>Trying Some Commands</h2>
 Despite not being able to be remotely connected to the lab computers, I can still show you how to use some of the commands you will use! 
@@ -16,6 +17,7 @@ ls denotes linux commands. -lat displays a lot of files in the directory lateral
 cp is our way to compile files on the remote computers, and cat is our way to run them
 
 ![](TERMINAL%20COMMANDS.png)
+![](BUNCHOFCOMMANDS.png)
 
 <h2>Moving Files with scp</h2>
 we're able to create, compile, and run a java file within vscode
