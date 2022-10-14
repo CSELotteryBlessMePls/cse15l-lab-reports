@@ -29,9 +29,9 @@ We can compile and run it, and then next we will send it over to the computer by
 <h2>Setting an SSH Key</h2>
 We will copy over a public key to the remote computer in order to make copying files and logging in faster because we won't have to type in passwords every time. Just type in "ssh-keygen -t ed25519". It will ask you to enter a file location to save the keys, but pressing enter to use the default works fine. It will then ask for passwords, but setting no password also works fine here. After that, it will visualize everything it has generated, and you can see the files for the keys at the file folder you chose.
 ![](KEYGEN.png)
-![](SSHKEYDONE.png)
 
 Then we will log into the remote computer and run the command "mkdir .ssh", and then exit. Back on our system, we will type in the command "scp /Users/*your user*/.ssh/*your filename*.pub cs15lfa22**@ieng6.ucsd.edu:~/.ssh/authorized_keys", replacing the user part of the path with your user, the filename with the public key file we just created, and your cs15l account id two characters. We'll have to type in the password one more time to connect and start the copying of the passwords, but that should be it for that.
+![](SSHKEYDONE.png)
 
 <h2>OPTIMIZATIONS</h2>
 The only thing left to show is optimizations. You can run multiple commands from the command line by separating them with semicolons. Also, you can run a command directly on the remote computers by typing in the same thing as when you would log in, then adding the command line after it in quotes.
