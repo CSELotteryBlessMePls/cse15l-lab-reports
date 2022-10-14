@@ -54,4 +54,6 @@ class SearchEngine {
     }
 }
 ~~~
-
+![](SEARCHADDED2.png)
+![](SEARCHCONFIRMEDADDED.png)
+![](SEARCHSEARCHED.png)
