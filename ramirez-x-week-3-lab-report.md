@@ -1,3 +1,4 @@
+<h2>Part 1</h2>
 ~~~
 import java.io.IOException;
 import java.net.URI;
@@ -60,3 +61,5 @@ The handleRequest method is called. Since the URL contains "/add", an array of s
 Because the only thing added in the URL is a "/", a result string is created and set equal to the instance variable String list[], which contains all of the strings we've added, and calls the .toString() method on it. The result string is then returned.
 ![](SEARCHSEARCHED.png)
 Since the URL contained "/search", it does a similar thing to the last one where it makes a new array of strings that has the parts of the URL after the question mark and separated by equals sign in it, which it sets a variable called parameters to. It checks if the indicator char "s" is the first string in that new parameters array, and since it is, it creats a new ArrayList of strings to be the result that it will return eventually. It then goes through all of the elements in the instance variable list and checks if each one contains the string that is at the first index of the parameters. If each element of list does contain the parameter, then it will be added to the result list. Once they've all been gone through, it will set a string called result equal to the ArrayList of strings containing the string we're searching for, and then it will return that result.
+
+<h2>Part 2</h2>
