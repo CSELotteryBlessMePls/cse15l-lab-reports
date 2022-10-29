@@ -10,7 +10,7 @@ technical/government/Media/AP_LawSchoolDebts.txt
 technical/government/Media/A_Perk_of_Age.txt
 technical/government/Media/A_helping_hand.txt
 technical/government/Media/Abuse_penalties.txt
-...lots more files...
+... a lot of files...
 technical/government/Media/not_accessible_to_disabled.txt
 technical/government/Media/predatory_loans.txt
 technical/government/Media/pro_bono_efforts.txt
@@ -122,14 +122,54 @@ technical/plos/pmed.0020192.txt
 <br> finds files of the type specified after it (d = directory, f = files,...)
 <br> ex1
 ````
-
+[cs15lfa22ed@ieng6-203]:skill-demo1:218$ find technical/ -type d
+technical/
+technical/911report
+technical/biomed
+technical/government
+technical/government/About_LSC
+technical/government/Alcohol_Problems
+technical/government/Env_Prot_Agen
+technical/government/Gen_Account_Office
+technical/government/Media
+technical/government/Post_Rate_Comm
+technical/plos
 ````
 ex2
 ````
-
+[cs15lfa22ed@ieng6-203]:skill-demo1:219$ find technical/government -type d
+technical/government
+technical/government/About_LSC
+technical/government/Alcohol_Problems
+technical/government/Env_Prot_Agen
+technical/government/Gen_Account_Office
+technical/government/Media
+technical/government/Post_Rate_Comm
 ````
 
 ex3
 ````
-
+[cs15lfa22ed@ieng6-203]:skill-demo1:220$ find technical/government/Media -type f
+technical/government/Media/5_Legal_Groups.txt
+technical/government/Media/AP_LawSchoolDebts.txt
+technical/government/Media/A_Perk_of_Age.txt
+technical/government/Media/A_helping_hand.txt
+technical/government/Media/Abuse_penalties.txt
+technical/government/Media/Advocate_for_Poor.txt
+technical/government/Media/Aid_Gets_7_Million.txt
+technical/government/Media/All_May_Have_Justice.txt
+technical/government/Media/Annual_Fee.txt
+technical/government/Media/Anthem_Payout.txt
+technical/government/Media/Assuring_Underprivileged.txt
+technical/government/Media/Attorney_gives_his_time.txt
+technical/government/Media/Avoids_Budget_Cut.txt
+technical/government/Media/Barnes_Volunteers.txt
+technical/government/Media/Barnes_new_job.txt
+... a lot of files ...
+technical/government/Media/man_on_national_team.txt
+technical/government/Media/not_accessible_to_disabled.txt
+technical/government/Media/predatory_loans.txt
+technical/government/Media/pro_bono_efforts.txt
+technical/government/Media/residents_sue_city.txt
+technical/government/Media/water_fees.txt
 ````
