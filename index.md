@@ -4,3 +4,4 @@ Anya Sweep
 [Lab Report 2](https://cselotteryblessmepls.github.io/cse15l-lab-reports/ramirez-x-week-3-lab-report.html)
 [Lab Report 3](https://cselotteryblessmepls.github.io/cse15l-lab-reports/ramirez-x-week-3-lab-report.html)
 [Lab Report Week 5](https://cselotteryblessmepls.github.io/cse15l-lab-reports/ramirez-x-week-5-lab-report.html)
+[Lab Report Week 7](https://cselotteryblessmepls.github.io/cse15l-lab-reports/ramirez-x-week-7-lab-report.html)
