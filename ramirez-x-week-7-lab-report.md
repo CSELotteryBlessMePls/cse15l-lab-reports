@@ -2,19 +2,19 @@ PART 1:
 <br>
 :%s/start/base/g<Enter>:wq<Enter>
 <br>
-![](VIM-FIRST-COMMAND.png)
+![](/cse15l-lab-reports/VIM-FIRST-COMMAND.png)
   <br>
 :%s starts the subsitute command in the range of %, or the entire document. start is the first parameter and base is the second. g is a flag that signifies to replace specifically every occurance of start with base.
 <br>
-  ![](VIM-SECOND-COMMAND.png)
+  ![](/cse15l-lab-reports/VIM-SECOND-COMMAND.png)
   <br>
   <Enter> executes the command
 <br>
-  ![](VIM-THIRD-COMMAND.png)
+  ![](/cse15l-lab-reports/VIM-THIRD-COMMAND.png)
     <br>
 :wq is the command to exit and save changes
 <br>
-  ![](VIM-4-COMMAND.png)
+  ![](/cse15l-lab-reports/VIM-4-COMMAND.png)
     <br>
 the final <Enter> executes the command
 <br>
