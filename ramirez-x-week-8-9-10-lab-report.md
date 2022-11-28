@@ -54,20 +54,23 @@ I currently don't have the ability to run the server through the browser, but I 
  ![](COMPILE_ERROR_OUTPUT.png)
  ![](FILTER_INFLUENCED_COMPILE_ERROR_OUTPUT.png)
 
+<br>
+I am showing the trace of this input https://github.com/ucsd-cse15l-f22/list-methods-compile-error
+<br>
 | LINE      | STDOUT | STDERR     | RETURN CODE  |
 | :---        |    :----:   |          ---: |   |
 | rm      | -       | -   | 0|
-| git   | -        | -      |0 |
+| git   | -        | "Cloning into 'student-submission... remote'...     |0 |
 | cp      | -       | -   |0 |
 | cp   | -        | -      |0 |
 | cd      | -       | -   |0 |
 | *if statement*   | Text        | And more      | |
-| echo      | Title       | Here's this   | 0|
-| echo   | Text        | And more      | 0|
-| echo      | Title       | Here's this   |0 |
-| exit   | Text        | And more      |1 |
+| echo      | -       | -   | 0|
+| echo   | *NOT RUN*        | *NOT RUN*      | |
+| echo      | *NOT RUN*       | *NOT RUN*   | |
+| exit   |*NOT RUN*        | *NOT RUN*     ||
 | javac      | Title       | Here's this   | |
-| *if statement*   | Text        | And more      | |
+| *if statement*   | *True because file called "ListExamples.java" is found in the current directory, student-submission*        | -      | |
 | echo      | Title       | Here's this   | |
 | java   | Text        | And more      | |
 | *initialize a variable*      | Title       | Here's this   | |
