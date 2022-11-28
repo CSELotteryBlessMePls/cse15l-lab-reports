@@ -46,3 +46,6 @@ else
     exit 1
 fi
 ```
+
+<br>
+I currently don't have the ability to run the server through the browser, but I can show the process approximately running in the terminal.
