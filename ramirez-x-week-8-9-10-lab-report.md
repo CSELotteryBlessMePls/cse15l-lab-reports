@@ -60,28 +60,28 @@ I am showing the trace of this input https://github.com/ucsd-cse15l-f22/list-met
 | LINE      | STDOUT | STDERR     | RETURN CODE  |
 | :---        |    :----:   |          ---: |   |
 | rm      | -       | -   | 0|
-| git   | -        | "Cloning into 'student-submission... remote'...     |0 |
+| git   | -        | "Cloning into 'student-submission'... remote"...     |0 |
 | cp      | -       | -   |0 |
 | cp   | -        | -      |0 |
 | cd      | -       | -   |0 |
-| *if statement*   | Text        | And more      | |
-| echo      | -       | -   | 0|
+| *if statement*   | *True because file called "ListExamples.java" is found in the current directory, student-submission*        | -      | |
+| echo      | "file found"       | -   | 0|
 | echo   | *NOT RUN*        | *NOT RUN*      | |
 | echo      | *NOT RUN*       | *NOT RUN*   | |
 | exit   |*NOT RUN*        | *NOT RUN*     ||
-| javac      | Title       | Here's this   | |
-| *if statement*   | *True because file called "ListExamples.java" is found in the current directory, student-submission*        | -      | |
-| echo      | Title       | Here's this   | |
-| java   | Text        | And more      | |
-| *initialize a variable*      | Title       | Here's this   | |
-| *if statement*   | Text        | And more      | |
-| echo      | Title       | Here's this   | |
-| echo   | Text        | And more      | |
-| cat      | Title       | Here's this   | |
-| exit   | Text        | And more      | |
-| echo      | Title       | Here's this   | |
-| exit   | Text        | And more      | |
-| cat      | Title       | Here's this   | |
-| echo   | Text        | And more      | |
-| echo      | Title       | Here's this   | |
-| exit   | Text        | And more      | |
+| javac      |        | "ListExamples.java:15: error ';' expected result.add"...   | 1 |
+| *if statement*   |    *False because there is error produced and the return code is currently 1*     | -      | |
+| echo      | *NOT RUN*       | *NOT RUN*   | |
+| java   | *NOT RUN*        | *NOT RUN*      | |
+| *initialize a variable*      | *NOT RUN*       | *NOT RUN*   | |
+| *if statement*   | *NOT RUN*        | *NOT RUN*      | |
+| echo      | *NOT RUN*       | *NOT RUN*   | |
+| echo   | *NOT RUN*        | *NOT RUN*      | |
+| cat      | *NOT RUN*       | *NOT RUN*   | |
+| exit   | *NOT RUN*        | *NOT RUN*      | |
+| echo      | *NOT RUN*       | *NOT RUN*   | |
+| exit   | *NOT RUN*        | *NOT RUN*      | |
+| cat      | "ListExamples.java:15: error ';' expected result.add"...       |    | 0|
+| echo   | "compile error"        | -      | 0|
+| echo      | "failed"       | -   |0 |
+| exit   | -        | -      |1 |
