@@ -56,5 +56,29 @@ I currently don't have the ability to run the server through the browser, but I 
 
 | LINE      | STDOUT | STDERR     | RETURN CODE  |
 | :---        |    :----:   |          ---: |   |
-| Header      | Title       | Here's this   | |
-| Paragraph   | Text        | And more      | |
+| rm      | -       | -   | 0|
+| git   | -        | -      |0 |
+| cp      | -       | -   |0 |
+| cp   | -        | -      |0 |
+| cd      | -       | -   |0 |
+| *if statement*   | Text        | And more      | |
+| echo      | Title       | Here's this   | 0|
+| echo   | Text        | And more      | 0|
+| echo      | Title       | Here's this   |0 |
+| exit   | Text        | And more      |1 |
+| javac      | Title       | Here's this   | |
+| *if statement*   | Text        | And more      | |
+| echo      | Title       | Here's this   | |
+| java   | Text        | And more      | |
+| *initialize a variable*      | Title       | Here's this   | |
+| *if statement*   | Text        | And more      | |
+| echo      | Title       | Here's this   | |
+| echo   | Text        | And more      | |
+| cat      | Title       | Here's this   | |
+| exit   | Text        | And more      | |
+| echo      | Title       | Here's this   | |
+| exit   | Text        | And more      | |
+| cat      | Title       | Here's this   | |
+| echo   | Text        | And more      | |
+| echo      | Title       | Here's this   | |
+| exit   | Text        | And more      | |
