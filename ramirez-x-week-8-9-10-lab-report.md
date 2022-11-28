@@ -58,7 +58,7 @@ I currently don't have the ability to run the server through the browser, but I 
 I am showing the trace of this input https://github.com/ucsd-cse15l-f22/list-methods-compile-error
 <br>
 | LINE  | STDOUT | STDERR     | RETURN CODE  |
-| :---  | :----:   |          :---: | ---:  |
+| -----  | ------   |    -------- | ------  |
 | rm    |         |    | 0|
 | git   |         | "Cloning into 'student-submission'... remote"...     |0 |
 | cp    |         |    |0 |
