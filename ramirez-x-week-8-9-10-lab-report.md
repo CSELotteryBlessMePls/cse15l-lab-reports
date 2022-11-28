@@ -59,18 +59,18 @@ I am showing the trace of this input https://github.com/ucsd-cse15l-f22/list-met
 <br>
 | LINE  | STDOUT | STDERR     | RETURN CODE  |
 | :---  | :----:   |          :---: | ---:  |
-| rm    | -        | -   | 0|
-| git   | -        | "Cloning into 'student-submission'... remote"...     |0 |
-| cp    | -        | -   |0 |
-| cp    | -        | -      |0 |
-| cd    | -        | -   |0 |
-| *if statement*   | *True because file called "ListExamples.java" is found in the current directory, student-submission*        | -      | |
-| echo  | "file found" | -   | 0|
+| rm    |         |    | 0|
+| git   |         | "Cloning into 'student-submission'... remote"...     |0 |
+| cp    |         |    |0 |
+| cp    |         |       |0 |
+| cd    |         |    |0 |
+| *if statement*   | *True because file called "ListExamples.java" is found in the current directory, student-submission*        |       | |
+| echo  | "file found" |    | 0|
 | echo  |*NOT RUN* | *NOT RUN*      | |
 | echo  |*NOT RUN* | *NOT RUN*   | |
-| exit  |*NOT RUN* | *NOT RUN*     ||
+| exit  |*NOT RUN* | *NOT RUN*     | |
 | javac |        | "ListExamples.java:15: error ';' expected result.add"...   | 1 |
-| *if statement*   |    *False because there is error produced and the return code is currently 1*     | -      | |
+| *if statement*   |    *False because there is error produced and the return code is currently 1*     |       | |
 | echo  | *NOT RUN*| *NOT RUN*   | |
 | java  | *NOT RUN*| *NOT RUN*      | |
 | *initialize a variable*      | *NOT RUN*       | *NOT RUN*   | |
@@ -82,6 +82,6 @@ I am showing the trace of this input https://github.com/ucsd-cse15l-f22/list-met
 | echo  | *NOT RUN*| *NOT RUN*   | |
 | exit  | *NOT RUN*| *NOT RUN*      | |
 | cat   | "ListExamples.java:15: error ';' expected result.add"...       |    | 0|
-| echo  | "compile error" | -      | 0|
-| echo  | "failed" | -   |0 |
-| exit  | -        | -      |1 |
+| echo  | "compile error" |       | 0|
+| echo  | "failed" |    |0 |
+| exit  |         |       |1 |
