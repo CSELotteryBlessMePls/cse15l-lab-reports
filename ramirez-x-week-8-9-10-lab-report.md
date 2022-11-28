@@ -53,3 +53,8 @@ I currently don't have the ability to run the server through the browser, but I 
  ![](CORRECT_OUTPUT.png)
  ![](COMPILE_ERROR_OUTPUT.png)
  ![](FILTER_INFLUENCED_COMPILE_ERROR_OUTPUT.png)
+
+| LINE      | STDOUT | STDERR     | RETURN CODE  |
+| :---        |    :----:   |          ---: |   |
+| Header      | Title       | Here's this   | |
+| Paragraph   | Text        | And more      | |
