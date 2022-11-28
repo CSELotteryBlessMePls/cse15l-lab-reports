@@ -49,6 +49,8 @@ fi
 
 <br>
 I currently don't have the ability to run the server through the browser, but I can show the process approximately running in the terminal.
+<br>
+Here is the grade script running
  ![](CORRECT_PUT_IN_LINE.png)
  ![](CORRECT_OUTPUT.png)
  ![](COMPILE_ERROR_OUTPUT.png)
